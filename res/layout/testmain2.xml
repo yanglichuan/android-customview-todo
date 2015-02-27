@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hello="http://schemas.android.com/apk/res/com.example.bitttt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_1" >
+
+    <com.example.bitttt.MySlideMenu
+        android:id="@+id/id_viewpager"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <include layout="@layout/left_menu" />
+        <include layout="@layout/center_content" />
+         <include layout="@layout/right_menu" />
+    </com.example.bitttt.MySlideMenu>
+
+</RelativeLayout>

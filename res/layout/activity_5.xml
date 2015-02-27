@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hello="http://schemas.android.com/apk/res/com.example.bitttt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_1" >
+    
+
+    <com.example.bitttt.MyCodeVerifyView
+        android:id="@+id/myr1"
+        android:layout_width="100dp"
+        hello:code="5621"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
+
+    <com.example.bitttt.MyCodeVerifyView
+        android:id="@+id/myr2"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/myr1"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context=".Activity_1" >
+
+    <com.example.bitttt.MyZuhe
+        android:id="@+id/vivi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="第一个TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="第二个TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="#ff00ff"
+            android:gravity="center"
+            android:text="第三个TextView" />
+    </com.example.bitttt.MyZuhe>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#0000ff"
+        android:gravity="center"
+        android:text="sdfsfsdf" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_1" >
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度bar"
+        android:onClick="bt_function1"
+        />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gameview"
+        android:onClick="bt_function2"
+        />
+    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="checkbutton"
+        android:onClick="bt_function3"
+        />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyClipImageBorderView"
+        android:onClick="bt_function4"
+        />
+    
+    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="验证码"
+        android:onClick="bt_function5"
+        />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="flowbar"
+        android:onClick="bt_function6"
+        />
+    
+      
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新"
+        android:onClick="bt_function7"
+        />
+    
+      
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测滑菜单"
+        android:onClick="bt_function8"
+        />
+    
+    
+    
+</LinearLayout>
